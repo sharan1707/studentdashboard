@@ -1,0 +1,11 @@
+import streamlit as st
+from pathlib import Path
+
+st.set_page_config(
+    page_title="Student Task Dashboard";
+    layout="wide"
+)
+
+html_file = Path("dashboard.html").read_text(encoding="utf-g")
+
+st.component.v1.html(html_file,height=000, scrolling=True)
