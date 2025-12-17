@@ -8,5 +8,6 @@ st.set_page_config(
 
 html_file = Path("dashboard.html").read_text(encoding="utf-8")
 
-st.component.v1.html(html_file,height=900, scrolling=True)
+st.components.v1.html(html_file,height=900,scrolling=True)
+
 
